@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/1bfcbee079.js" crossorigin="anonymous"></script>
+  <title>Challenge Name Here]</title>
+
+  <style>
+
+    body, html
+    {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(218, 218, 224, 0.144);
+    }
+
+    .session
+    {
+      background-color: white;
+      width: 150px;
+      margin-left: 40px;
+      height: 20px;
+      border-radius: 0 0 30px 30px;
+
+    }
+
+    .fa-solid
+    {
+      color: rgb(221, 210, 210);
+      margin-left: -40px;
+      margin-top: 23px;
+      position: absolute;
+    
+
+    }
+
+    .gradient1{
+      background-image: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+      width: 400px;
+      height: 600px;
+      border-radius: 0px 0px 300px 300px;
+      margin-left: -100px;
+    }
+
+    .smartphone1{
+      box-shadow: 10px 10px 10px -8px rgb(184, 179, 179),  -10px -10px 10px -8px rgb(184, 179, 179);
+      border-radius: 30px;
+      width: 250px;
+      padding-top: 10px;
+      height: 520px;
+      margin-left: 250px;
+      padding-right: -30px;
+      margin-top: -560px;
+      background-color: white;
+      
+    }
+
+    .header
+    {
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 80px;
+      border-radius: 30px 30px 5px 5px;
+      background-image: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    }
+
+    .avatar
+    {
+      border: 1px solid white;
+      height: 25px;
+      border-radius:15px;
+      margin-left: 25px;
+      margin-top: 17px;
+      clear: both;
+    }
+
+    .h1
+    {
+      float:right;
+      margin-top: 17px;
+      margin-right:85px;
+      font-size: 14px;
+      color: rgb(233, 227, 227);
+    }
+
+    .subtitle{
+      float:right;
+      font-size: 10px;
+      margin-top: -15px;
+      margin-right: 98px;
+      color:rgb(233, 227, 227);
+    }
+
+    .chat
+    {
+      height: 435px;
+      border-radius: 0 0 25px 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: -15px;
+      background-color: rgba(240, 236, 236, 0.993);
+      clear: both;
+    }
+
+    .chat1
+    {
+      background-color: rgb(219, 213, 213);
+      width: 150px;
+      height: 30px;
+      margin-top:20px;
+      margin-right: 70px;
+      font-size: 12px;
+      border-radius: 10px;
+      float: right;
+    }
+
+    .text-chat1
+    {
+      padding-left: 10px;
+      line-height: 1;
+      margin-top: 3px;
+    }
+
+    .chat2
+    {
+      background-color: rgb(223, 217, 217);
+      width: 160px;
+      height: 30px;
+      margin-top:10px;
+      margin-right: 60px;
+      font-size: 12px;
+      border-radius: 10px;
+      float: right;
+    }
+
+    .text-chat2
+    {
+      padding-left: 10px;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .img-chat2
+    {
+      height: 45px;
+      border-radius: 10px;
+      position:relative;
+      margin-top: 10px;
+      margin-left: 170px;
+      clear: both;
+    }
+
+    .img-chat4
+    {
+      height: 45px;
+      border-radius: 10px;
+      float: left;
+      margin-left: 118px;
+      margin-top: -50px;
+    }
+
+    .img-chat6
+    {
+      float: left;
+      height: 45px;
+      border-radius: 10px;
+      margin-left: 65px;
+      margin-top: -50px;
+    }
+
+    .chat3
+    {
+      background-color:rgb(253, 253, 253);
+      width: 160px;
+      height: 30px;
+      margin-top:10px;
+      margin-right: 10px;
+      font-size: 12px;
+      border-radius: 10px;
+      float: right;
+    }
+
+    .text-chat3
+    {
+      padding-left: 10px;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .chat4
+    {
+      background-color: rgb(253, 253, 253);
+      width: 100px;
+      height: 20px;
+      margin-top:10px;
+      margin-right: 10px;
+      font-size: 12px;
+      border-radius: 10px;
+      float: right;
+    }
+
+    .text-chat4
+    {
+      padding-left: 10px;
+      line-height: 1;
+      margin-top: 5px;
+    }
+
+    .chat5
+    {
+      background-color: rgb(223, 217, 217);
+      width: 160px;
+      height: 40px;
+      margin-top:10px;
+      margin-right: 60px;
+      font-size: 12px;
+      border-radius: 10px;
+      float: right;
+    }
+
+    .text-chat5
+    {
+      padding-left: 10px;
+      line-height: 1;
+      margin-top:1px; 
+      padding-right: 5px;
+    }
+
+    .gradient-text{
+      display: inline-block;
+      height: 40px;
+      margin-left: 15px;
+      width: 130px;
+      margin-top: 10px;
+      background-image: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+      border-radius: 10px 10px 10px 10px;  
+    }
+
+    .gradient-text-line{
+      display: inline-block;
+      margin-top: 15px;
+      padding-left: 10px;
+      color:white;
+      font-size: 12px;
+    }
+
+    .valor
+    {
+      display: inline-block;
+      margin-top: -10px;
+      margin-left: 3px;
+      color: rgb(214, 210, 210);
+    }
+
+    .gradient-text1
+    {
+      display: inline-block;
+      height: 40px;
+      margin-left: 15px;
+      width: 130px;
+      margin-top: 10px;
+      background-image: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+      border-radius: 10px 10px 10px 10px;  
+    }
+
+    .gradient-text-line1
+    {
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 10px;
+      padding-left:0px;
+      color:white;
+      font-size: 12px;
+    }
+
+    .valor1
+    {
+      display: inline-block;
+      margin-top: -10px;
+      margin-left: 20px;
+      color: rgb(214, 210, 210);
+    }
+
+    .footer-form
+    {
+      margin-top:20px;
+      padding: 10px;
+      border-radius: 15px;
+      border:1px solid white;
+      margin-left: 15px;
+      width: 180px;
+    }
+
+    .fa-angle-right
+    {
+      color: rgb(214, 210, 210);
+      margin-top: -16px;
+      margin-left: 12px;
+
+    }
+
+    .gradient-footer
+    {
+      height: 30px;
+      width: 30px;
+      background-color:hsl(276, 55%, 52%);
+      border-radius: 16px;
+      margin-right: 25px;
+      margin-top: -50px;
+      position: relative;
+      margin-left: 183px;
+    }
+
+    .link
+    {
+      padding-left: 12px;
+      padding-top: 8px;
+      color: white;
+    }
+
+    .article2
+      { 
+      font-size: 30px;
+      font-family: sans-serif;
+      float:right;
+      margin-right: 500px;
+      margin-top: -350px;
+      }
+
+    .article3
+      {
+      color: rgb(82, 82, 80);
+      font-size: 15px;
+      line-height: 1.5;
+      font-family: sans-serif;
+      width: 480px;
+      float:right;
+      margin-top: -300px;
+      margin-right: 242px;
+    }
+
+    .gradient-footer1
+    {
+      background-image:linear-gradient(hsla(228, 45%, 44%, 0.034),hsla(229, 43%, 31%, 0.034));
+      border-radius: 200px 200px 0px 0px;
+      height: 600px;
+      width: 400px;
+      margin-top: -450px;
+      position: fixed;
+      margin-left: 1190px;
+    }
+
+</style>
+</head>
+
+<body>
+<article class="gradient1"></article>
+
+<div class="smartphone1">
+
+<main>
+
+<header class="header">
+
+<div class="session"></div>
+
+  <img src="images/avatar.jpg" alt="imagem do avatar" class="avatar">
+  <h1 class="h1">Samuel Green</h1>
+  <p class="subtitle">Available to Walk</p>
+  <i class="fa-solid fa-angle-left"></i>
+</header>
+  
+<div class="chat">
+
+<div class="chat1">
+  <p class="text-chat1">That sounds great. I’d be happy with that.</p>
+</div>
+
+<div class="chat2">
+  <p class="text-chat2">Could you send over some pictures of your dog, please?</p>
+</div>
+
+<div class="img-chat1">
+  <img src="images/dog-image-1.jpg" alt="primeira foto do cachorro" class="img-chat2">
+</div>
+
+<div class="img-chat3">
+  <img src="images/dog-image-2.jpg"  alt="segunda foto do cachorro" class="img-chat4">
+</div>
+
+<div class="img-chat5">
+  <img src="images/dog-image-3.jpg" alt="segunda foto do cachorro" class="img-chat6">
+</div>
+
+<div class="chat3">
+  <p class="text-chat3">Here are a few pictures. She’s a happy girl!</p>
+</div>
+
+<div class="chat4">
+  <p class="text-chat4">Can you make it?</p>
+</div>
+
+<div class="chat5">
+  <p class="text-chat5">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+</div>
+
+<div class="gradient-text">
+  <p class="gradient-text-line">30 minute walk</p>
+  <p class="valor">$29</p>
+</div>
+
+<div class="gradient-text1">
+  <p class="gradient-text-line1">1 hour walk</p>
+  <p  class="valor1">$49</p>
+</div>
+
+<footer class="footer1">
+  <label for="text"></label>
+  <input type="text" placeholder="Type a message..." class="footer-form">
+
+<div class="gradient-footer">
+  <p class="link"></p>
+  <i class="fa-solid fa-angle-right"></i>
+</div>
+
+</footer>
+
+</div>
+</div>
+
+<section>
+  <h2 class="article2">Simple booking</h2>
+  <p class="article3">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat.</p>
+</section>
+
+</main>
+
+<article class="gradient-footer1"></article>
+</body>
+</html>
+
